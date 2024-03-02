@@ -35,6 +35,24 @@
 <h1>Mon panier </h1>
     </div>
 <br>
+<script>
+    fetch('panier.csv')
+    .then(response => response.text())
+    .then(data => {
+        let lines = data.split('\n');
+        let table = document.querySelector('.table1');
+        lines.forEach(line => {
+            let row = document.createElement('tr');
+            let columns = line.split(',');
+            columns.forEach(column => {
+                let cell = document.createElement('td');
+                cell.textContent = column;
+                row.appendChild(cell);
+            });
+            table.appendChild(row);
+        });
+    });
+</script>
 <table class="table1">
     <tr>
       <td>
@@ -50,7 +68,6 @@
         <p>Quantité</p>
       </td>
     </tr>
-<br>
 </table>
 <div class="Confirm">
   <button class="styled-button">Confirm</button>
