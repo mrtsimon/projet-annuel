@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Couleur de fond blanc */
+}
+
+
+.top-bar {
+    background-color: #2ecc71; /* Couleur verte */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.user-account img,
+.cart img,
+.logo img {
+    width: 60px; /* Ajustez la taille de l'icône selon vos besoins */
+    height: 60px;
+}
+
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+}
+
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #3498db; /* Couleur bleue */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+header {
+    background-color: #2ecc71; /* Couleur verte */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+footer {
+    background-color: #2ecc71; /* Couleur verte */
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 50px;
+  }
+ 
+  td {
+    padding: 5px;
+  }
+ 
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ 
+  .logo2 {
+    width: 150px;
+    height: 150px;
+    background-color: #2ecc71;
+  }
+ 
+  .box {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #2ecc71;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center; /* Alignement vertical des éléments */
+}
+
+/* Styles pour le logo */
+.logo {
+    width: 50px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto; /* Pour conserver les proportions originales du logo */
+    margin-right: 10px; /* Espace entre le logo et le texte */
+}
+
+.table1 {
+  width: 75%;
+  margin-left: 5%;
+  background-color: #2ecc71;
+  color:white;
+  font-size: 20px;
+  justify-content: center;
+  border: 2px solid #2ecc71; /* Couleur de l'encadrement et épaisseur de la bordure */
+  border-collapse: separate;
+  border-radius: 10px; 
+  font-size: 170%;
+}
+
+
+/* Styles pour les cellules du tableau */
+td, th {
+  border: 1px solid #2ecc71; /* Couleur de la bordure des cellules */
+  padding: 8px;
+  text-align: center;
+  border-spacing: 10px;
+}
+
+.styled-button {
+  background-color: #2ecc71; 
+  color: white; 
+  padding: 20px 30px; 
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  font-size: 110%;
+  margin-left: 90%;
+
+}
+
+
